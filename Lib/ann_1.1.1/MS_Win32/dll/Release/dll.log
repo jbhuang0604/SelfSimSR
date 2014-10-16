@@ -1,0 +1,52 @@
+﻿Build started 9/18/2013 6:59:29 PM.
+     1>Project "D:\Documents\Research\Project\130729SISRBenchmark\Code\Lib\ann_1.1.1\MS_Win32\dll\dll.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\dll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /D _USRDLL /D DLL_EXPORTS /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DLL_EXPORTS /D ANN_NO_RANDOM /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\ANN.cpp ..\..\src\bd_pr_search.cpp ..\..\src\bd_search.cpp ..\..\src\bd_tree.cpp ..\..\src\brute.cpp ..\..\src\kd_pr_search.cpp ..\..\src\kd_search.cpp ..\..\src\kd_split.cpp ..\..\src\kd_tree.cpp ..\..\src\kd_util.cpp ..\..\src\perf.cpp
+         ANN.cpp
+         bd_pr_search.cpp
+         bd_search.cpp
+         bd_tree.cpp
+         brute.cpp
+         kd_pr_search.cpp
+         kd_search.cpp
+         kd_split.cpp
+         kd_tree.cpp
+         kd_util.cpp
+         perf.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DLL_EXPORTS /D ANN_NO_RANDOM /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\bd_fix_rad_search.cpp ..\..\src\kd_dump.cpp ..\..\src\kd_fix_rad_search.cpp
+         bd_fix_rad_search.cpp
+         kd_dump.cpp
+         kd_fix_rad_search.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\Documents\Research\Project\130729SISRBenchmark\Code\Lib\ann_1.1.1\MS_Win32\dll\.\Release\dll.dll) does not match the Linker's OutputFile property value (D:\Documents\Research\Project\130729SISRBenchmark\Code\Lib\ann_1.1.1\MS_Win32\bin\ANN.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(dll) does not match the Linker's OutputFile property value (ANN). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\ANN.dll" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:".\Release\dll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release\ANN.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Release\ANN.lib" /MACHINE:X86 /DLL .\Release/ANN.obj
+         .\Release/bd_fix_rad_search.obj
+         .\Release/bd_pr_search.obj
+         .\Release/bd_search.obj
+         .\Release/bd_tree.obj
+         .\Release/brute.obj
+         .\Release/kd_dump.obj
+         .\Release/kd_fix_rad_search.obj
+         .\Release/kd_pr_search.obj
+         .\Release/kd_search.obj
+         .\Release/kd_split.obj
+         .\Release/kd_tree.obj
+         .\Release/kd_util.obj
+         .\Release/perf.obj
+            Creating library .\Release\ANN.lib and object .\Release\ANN.exp
+         dll.vcxproj -> D:\Documents\Research\Project\130729SISRBenchmark\Code\Lib\ann_1.1.1\MS_Win32\dll\.\Release\dll.dll
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\bin\ANN.dll;#2" /manifest .\Release\dll.dll.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file ".\Release\dll.unsuccessfulbuild".
+         Touching ".\Release\dll.lastbuildstate".
+     1>Done Building Project "D:\Documents\Research\Project\130729SISRBenchmark\Code\Lib\ann_1.1.1\MS_Win32\dll\dll.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:56.55

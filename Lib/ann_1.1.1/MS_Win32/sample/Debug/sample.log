@@ -1,0 +1,32 @@
+﻿Build started 9/18/2013 6:48:22 PM.
+     1>Project "D:\Documents\Research\Project\130729SISRBenchmark\Code\Lib\ann_1.1.1\MS_Win32\sample\sample.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\sample.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D ANN_NO_RANDOM /D ANN_PERF /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /D _AFXDLL /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\sample\ann_sample.cpp
+         ann_sample.cpp
+     1>d:\documents\research\project\130729sisrbenchmark\code\lib\ann_1.1.1\sample\ann_sample.cpp(30): warning C4273: 'fopen_s' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(236) : see previous definition of 'fopen_s'
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\sample.exe.embed.manifest.res" .\Debug\sample_manifest.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\Documents\Research\Project\130729SISRBenchmark\Code\Lib\ann_1.1.1\MS_Win32\sample\.\Debug\sample.exe) does not match the Linker's OutputFile property value (D:\Documents\Research\Project\130729SISRBenchmark\Code\Lib\ann_1.1.1\MS_Win32\bin\ann_sample.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(sample) does not match the Linker's OutputFile property value (ann_sample). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\ann_sample.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\sample.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/sample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\sample.lib" /MACHINE:X86 .\Debug\sample.exe.embed.manifest.res
+         .\Debug/ann_sample.obj
+         D:\Documents\Research\Project\130729SISRBenchmark\Code\Lib\ann_1.1.1\MS_Win32\dll\Debug\ANN.lib
+            Creating library .\Debug\sample.lib and object .\Debug\sample.exp
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\sample.exe.embed.manifest" /manifest .\Debug\sample.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         sample.vcxproj -> D:\Documents\Research\Project\130729SISRBenchmark\Code\Lib\ann_1.1.1\MS_Win32\sample\.\Debug\sample.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\sample.unsuccessfulbuild".
+         Touching ".\Debug\sample.lastbuildstate".
+     1>Done Building Project "D:\Documents\Research\Project\130729SISRBenchmark\Code\Lib\ann_1.1.1\MS_Win32\sample\sample.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:26.73
