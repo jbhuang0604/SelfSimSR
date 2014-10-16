@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Ann">
+</Property><Property Name="Solution File" Value="C:\Users\Chih-Yuan\Documents\Research\software package\0928 Ann\ann_1.1.1\ann_1.1.1\MS_Win32\Ann.sln">
+</Property><Property Name="Date" Value="Monday, September 28, 2009">
+</Property><Property Name="Time" Value="9:00 AM">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="Ann.sln" Description="Error creating backup file: C:\Users\Chih-Yuan\Documents\Research\software package\0928 Ann\ann_1.1.1\ann_1.1.1\MS_Win32\Ann.sln.old">
+</Event><Event ErrorLevel="0" Project="dll" Source="dll\dll.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="dll" Source="dll\dll.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="dll" Source="dll\dll.vcproj" Description="Project file successfully backed up as 'C:\Users\Chih-Yuan\Documents\Research\software package\0928 Ann\ann_1.1.1\ann_1.1.1\MS_Win32\dll\dll.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="dll" Source="dll\dll.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="dll" Source="dll\dll.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="sample" Source="sample\sample.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="sample" Source="sample\sample.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="sample" Source="sample\sample.vcproj" Description="Project file successfully backed up as 'C:\Users\Chih-Yuan\Documents\Research\software package\0928 Ann\ann_1.1.1\ann_1.1.1\MS_Win32\sample\sample.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="sample" Source="sample\sample.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="sample" Source="sample\sample.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="test" Source="test\test.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="test" Source="test\test.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="test" Source="test\test.vcproj" Description="Project file successfully backed up as 'C:\Users\Chih-Yuan\Documents\Research\software package\0928 Ann\ann_1.1.1\ann_1.1.1\MS_Win32\test\test.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="test" Source="test\test.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="test" Source="test\test.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ann2fig" Source="ann2fig\ann2fig.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="ann2fig" Source="ann2fig\ann2fig.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="ann2fig" Source="ann2fig\ann2fig.vcproj" Description="Project file successfully backed up as 'C:\Users\Chih-Yuan\Documents\Research\software package\0928 Ann\ann_1.1.1\ann_1.1.1\MS_Win32\ann2fig\ann2fig.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="ann2fig" Source="ann2fig\ann2fig.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="ann2fig" Source="ann2fig\ann2fig.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Ann.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Ann.sln" Description="Converted">
+</Event></UpgradeLog>

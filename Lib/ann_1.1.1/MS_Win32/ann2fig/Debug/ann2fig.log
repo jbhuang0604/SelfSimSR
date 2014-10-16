@@ -1,0 +1,13 @@
+﻿Build started 10/15/2012 12:53:13 PM.
+     1>Project "D:\Documents\Research\code\090916SuperResolution\120801SRForFace\Code\Lib\ann_1.1.1\MS_Win32\ann2fig\ann2fig.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ann2fig.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\ann2fig\ann2fig.cpp
+         ann2fig.cpp
+     1>d:\documents\research\code\090916superresolution\120801srforface\code\lib\ann_1.1.1\ann2fig\ann2fig.cpp(583): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>Done Building Project "D:\Documents\Research\code\090916SuperResolution\120801SRForFace\Code\Lib\ann_1.1.1\MS_Win32\ann2fig\ann2fig.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.54
